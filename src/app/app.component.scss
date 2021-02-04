@@ -1,0 +1,14 @@
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+.main {
+    height: 100%;
+    padding: 2rem;
+}
+
+@include media-breakpoint-up(sm) {
+    .main {
+        padding: 4rem;
+    }
+}
